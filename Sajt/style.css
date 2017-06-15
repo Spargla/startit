@@ -1,3 +1,7 @@
+element.style {
+	cursor: pointer;
+	text-decoration: none;
+}	
 body{
 	background-color: #f5f4f2;
 	}
@@ -11,23 +15,31 @@ nav{
 }
 nav li {
 	display: inline-block;
-	list-style: none;
 	margin: 1% 3%;
+	text-decoration: none;
 }
 #logo {
-	display: inline-block;
-    max-width: 10%;
+    max-width: 50px;
     height: auto;
 }
+h1 {
+	color: #e700ff;
+	font-family: Comic, Tahoma, serif;
+	font-size: 20px;
+	text-decoration: none;
+	float:left;
+}
 form {
-	align-content: right;
+	object-position: right;
+	float: left;
 }
 #meni{
 	background-color: violet;
-	width: 80%;
+	width: 75%;
 	height: 100px;
 	margin-left: 10%;
 	margin-right: 10%;
+	text-decoration: none;
 }
 
 #meni li{
@@ -37,13 +49,15 @@ form {
 	float: left;
 	list-style: none;
 	margin: 1% 3%;
+	text-decoration: none !important;
+	padding: 5px;
+	
+}
+element.style {
+	cursor: pointer;
+	text-decoration: none;
 }
 
-h1 {
-	color: blue;
-	font-family: Comic, Tahoma, serif;
-	font-size: 25px;
-}
 #glavna {
 	width: 80%;
 	height: auto;
@@ -53,17 +67,29 @@ h1 {
 p {
 	font-family: Arial, sans-serif
 	font-size: 20px;
-	margin-top: -10%;
-	margin-left: 15%;
+	font-color: white !important;
+	margin-top: -20% !important;
 	text-align: left;
-	color: white;
+	position: relative;
+	text-decoration: none;
+	float: left;
 }
 h3 {
 	font-size: 25px;
-	margin-left: 15%;
+	color: white !important;
+	margin-top: -15% !important;
 	text-align: left;
-	color: white;
+	text-decoration: none;
 
 }
+hr{
+	size: 5px;
+	position: absolute;
+	color: white;
+	width: 70%;
+	align-content: center;
 
-
+}
+.clear {
+	clear:both;
+}
